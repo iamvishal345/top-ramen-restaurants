@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename="/ramen-restaurants">
+    <Router basename="/top-ramen-restaurants">
       <App />
     </Router>
   </React.StrictMode>,
