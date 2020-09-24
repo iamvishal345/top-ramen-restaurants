@@ -13,7 +13,9 @@ function App() {
   const [searchText, handleSearchTextChange] = useState("");
   const [restaurantsList, setRestaurantsList] = useState([]);
   useEffect(() => {
-    fetch("http://starlord.hackerearth.com/TopRamen")
+    fetch(
+      "https://iamvishal345.github.io/top-ramen-restaurants/static-data.json"
+    )
       .then((res) => {
         return res.json();
       })
