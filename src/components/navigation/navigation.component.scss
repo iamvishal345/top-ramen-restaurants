@@ -1,0 +1,53 @@
+@import "../../App.scss";
+.nav-container {
+  background: $primary-color;
+  background: linear-gradient(to right, $primary-color, $secondary-color);
+  .icon {
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: auto;
+    font-weight: 900;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    display: none;
+    cursor: pointer;
+    padding: 3px 10px;
+    margin-right: 0.75rem;
+    &:focus {
+      outline: none;
+    }
+    @include for-phone-only {
+      display: block;
+    }
+  }
+  .nav-bar {
+    display: flex;
+    list-style: none;
+    color: $text-color;
+    margin: 0;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 30rem;
+    font-weight: 600;
+    justify-content: space-evenly;
+    @include for-phone-only {
+      width: 90%;
+      flex-direction: column;
+      justify-content: flex-start;
+      display: none;
+      &.toggle-display {
+        display: flex;
+      }
+    }
+    .nav-item {
+      text-decoration: none;
+      color: $nav-bar-item-color;
+      &.active,
+      &:hover {
+        color: $text-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import "../../App.scss";
+.view-by-condition-container {
+  .header {
+    text-align: center;
+    margin: 0;
+    background: linear-gradient(to right, $primary-color, #6f0000);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+}
