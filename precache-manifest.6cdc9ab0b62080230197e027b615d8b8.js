@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f93e960c87504f8bdb02d4108b861795",
+    "revision": "26c1a292302c89f3c33ecc2d7be63b14",
     "url": "/top-ramen-restaurants/index.html"
   },
   {
-    "revision": "a4642f5210db1a9d105f",
+    "revision": "d9f3fd6eb4f5c7a218a7",
     "url": "/top-ramen-restaurants/static/css/main.7dbbd7bd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/top-ramen-restaurants/static/js/2.df095b13.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a4642f5210db1a9d105f",
-    "url": "/top-ramen-restaurants/static/js/main.a1b5d36a.chunk.js"
+    "revision": "d9f3fd6eb4f5c7a218a7",
+    "url": "/top-ramen-restaurants/static/js/main.cc6385a2.chunk.js"
   },
   {
     "revision": "2c21e8abc58b0738e62e",
