@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/ramen-restaurants/static/css/main.7dbbd7bd.chunk.css",
-    "main.js": "/ramen-restaurants/static/js/main.1f8dbee9.chunk.js",
-    "main.js.map": "/ramen-restaurants/static/js/main.1f8dbee9.chunk.js.map",
+    "main.js": "/ramen-restaurants/static/js/main.76ea2248.chunk.js",
+    "main.js.map": "/ramen-restaurants/static/js/main.76ea2248.chunk.js.map",
     "runtime-main.js": "/ramen-restaurants/static/js/runtime-main.613f7b00.js",
     "runtime-main.js.map": "/ramen-restaurants/static/js/runtime-main.613f7b00.js.map",
-    "static/js/2.4694aad4.chunk.js": "/ramen-restaurants/static/js/2.4694aad4.chunk.js",
-    "static/js/2.4694aad4.chunk.js.map": "/ramen-restaurants/static/js/2.4694aad4.chunk.js.map",
+    "static/js/2.df095b13.chunk.js": "/ramen-restaurants/static/js/2.df095b13.chunk.js",
+    "static/js/2.df095b13.chunk.js.map": "/ramen-restaurants/static/js/2.df095b13.chunk.js.map",
     "index.html": "/ramen-restaurants/index.html",
-    "precache-manifest.69f476d204b9c221c929e41ff4ff1463.js": "/ramen-restaurants/precache-manifest.69f476d204b9c221c929e41ff4ff1463.js",
+    "precache-manifest.a190bb171da79f633a0e6e226072937a.js": "/ramen-restaurants/precache-manifest.a190bb171da79f633a0e6e226072937a.js",
     "service-worker.js": "/ramen-restaurants/service-worker.js",
     "static/css/main.7dbbd7bd.chunk.css.map": "/ramen-restaurants/static/css/main.7dbbd7bd.chunk.css.map",
-    "static/js/2.4694aad4.chunk.js.LICENSE.txt": "/ramen-restaurants/static/js/2.4694aad4.chunk.js.LICENSE.txt"
+    "static/js/2.df095b13.chunk.js.LICENSE.txt": "/ramen-restaurants/static/js/2.df095b13.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.613f7b00.js",
-    "static/js/2.4694aad4.chunk.js",
+    "static/js/2.df095b13.chunk.js",
     "static/css/main.7dbbd7bd.chunk.css",
-    "static/js/main.1f8dbee9.chunk.js"
+    "static/js/main.76ea2248.chunk.js"
   ]
 }
