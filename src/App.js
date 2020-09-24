@@ -4,7 +4,7 @@ import { Search } from "./components/search/search.component";
 import { ItemView } from "./components/item-view/item-view.component";
 import { Navigation } from "./components/navigation/navigation.component";
 import { ItemViewByCondition } from "./components/item-view-by-condition/item-view-by-condition.component";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import { ItemViewByYear } from "./components/HOC/item-view-by-year.hoc";
 import { ItemViewByCountry } from "./components/HOC/item-view-by-country.hoc";
 const ItemViewByYearContainer = ItemViewByYear(ItemViewByCondition);
@@ -38,6 +38,10 @@ function App() {
       </header>
       <main>
         <Switch>
+          <Route exact path="/">
+            {" "}
+            <Redirect to="/all" />
+          </Route>
           <Route
             path="/all"
             render={() => (
