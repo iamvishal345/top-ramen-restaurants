@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/top-ramen-restaurants/precache-manifest.ab34eb241d8d82086f1f7e3b2f47cd5a.js"
+  "/top-ramen-restaurants/precache-manifest.7b4d563f58ae67a29dfd5caf8ead51dd.js"
 );
 
 self.addEventListener('message', (event) => {
